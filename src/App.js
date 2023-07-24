@@ -12,10 +12,12 @@ import ProductDetails from './pages/ProductDetails';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
+import Hero from './components/Hero';
 
 const App = () => {
   return <div className='overflow-hidden'>
     <Router>
+      
       <Header />
       <Routes>
         <Route path='/' element = {<Home />} />
